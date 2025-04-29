@@ -13,8 +13,7 @@
     - `read-access` which will only give our `Domain Users` **read** permissions.
     - `write-access` which will only give our `Domain Users` **read/write** permissions.
     - `no-access` which will only give ONLY our `Domain Admins` **read/write** permissions. (NOT our `Domain Users`).
-    - `accounting` which will only give ONLY our `Domain Admins` who are members of the `_ACCOUNTING` organizational unit **read/write** permissions.
-    - 
+    - `accounting` which will only give users who are members of the `ACCOUNTING` security group **read/write** permissions.
 
 ---
 ---
@@ -189,7 +188,33 @@
 <br />
 
 
-<h2>Accounting folder</h2>
+<h2>Accounting Directory Share Access</h2>
+
+
+
+---
+<br />
+
+<h3>Create `ACCOUNTING` Security Group</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
