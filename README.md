@@ -3,7 +3,7 @@
 ---
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/bc37714a-9c61-45de-8a98-315d4ecc85af" alt="Microsoft Active Directory Logo"/>
+<img src="https://github.com/user-attachments/assets/2f544d38-0a3f-492d-8528-369cc98ee75a" alt="Microsoft Active Directory Logo"/>
 </p>
 
 ---
@@ -122,7 +122,7 @@
 
 <h3>Give `Domain Users` `read/write` Access To The `write-access` Directory</h3>
 
-- Duplicate steps **1 to 6** [described above]() for the `write-access` directory.
+- Duplicate steps **1 to 6** [described above](https://github.com/ian-bates-it/Create-File-Shares-and-Manage-Permissions/blob/main/README.md#give-domain-users-read-access-to-the-read-access-directory) for the `write-access` directory.
 - After `Domain Users` have been added to the `Network Access` for the `write-access` directory, set the `Permission Level` to `Read/Write` as shown below.
 
   <img src="https://github.com/user-attachments/assets/a26618e6-0324-4037-8ff0-498e5339cd8d" height="40%" width="40%" />
@@ -140,7 +140,7 @@
 <h3>Give `Admin Users` `read/write` Access To The `no-access` Directory</h3>
 
 
-- Duplicate steps **1 to 4** [described above]() for the `no-access` directory.
+- Duplicate steps **1 to 4** [described above](https://github.com/ian-bates-it/Create-File-Shares-and-Manage-Permissions/blob/main/README.md#give-domain-users-read-access-to-the-read-access-directory) for the `no-access` directory.
 - Then add the `Domain Admins` group as outlined below.
 
 <br />
@@ -165,7 +165,7 @@
 
 
 
-
+<!--
 
 ---
 ---
@@ -181,7 +181,15 @@
 
 <h3>Log into the Windows 10 Pro Client VM</h3>
 
+-->
 
+
+---
+---
+<br />
+
+
+<h2>Accounting folder</h2>
 
 
 
