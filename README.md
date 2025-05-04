@@ -195,15 +195,53 @@
 ---
 <br />
 
-<h3>Create `ACCOUNTING` Security Group</h3>
+<h3>Create A New OU for our `ACCOUNTING` Security Group</h3>
+
+- In the Windows 2022 Server Domain Controller, open `Active Directory Users and Computers`
+
+- To keep things organized, I elected to create another `Organizational Unit` to hold our new `Accounting` security group.
+- Right-click the domain, select `New` and select `Organizational Unit` as shown below.
+
+  <img src="https://github.com/user-attachments/assets/bc900ec3-9892-4e6e-9357-b762ab454b2c" height="60%" width="60%" />
+
+---
+<br />
+
+- Name the new Organizational Unit and select `OK`
+- Here, I named mine, `_DEPARTMENTS` as shown below
+
+
+  <img src="https://github.com/user-attachments/assets/79a07334-6488-4bb3-a1ed-57def043e9ae" height="40%" width="40%" />
+
+
+---
+<br />
+
+<h3>Create The `ACCOUNTING` Security Group</h3>
+
+- You may need to refresh after creating the `_DEPARTMENTS` OU.
+- Then follow the steps outlined below. 
+
+1. Right-click the `_DEPARTMENTS` OU
+2. Select `New`
+3. Select `Group` as shown below
+
+
+  <img src="https://github.com/user-attachments/assets/3699d7c3-8f89-4051-abfc-d0397780d8e0" height="50%" width="50%" />
 
 
 
+<br />
+
+<h3>Add Group Name For The `ACCOUNTING` Security Group</h3>
+
+4. Add the desired `Group name`. In this example, our security group will be called `Accounting`.
+5. Group scope is set to `Global`.
+6. Group type is set to `Security`.
+7. Select `OK` as shown below.
 
 
-
-
-
+  <img src="https://github.com/user-attachments/assets/6c1b10b8-68f3-4555-8c54-3156519a2096" height="40%" width="40%" />
 
 
 
