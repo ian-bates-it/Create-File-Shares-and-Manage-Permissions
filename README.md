@@ -331,7 +331,15 @@
 
 - This completes the process. Our user `austin.taylor` has `Read/Write` access to the `accountants` file share as a member of our Active Directory `ACCOUNTING` Security Group. 
 
+- You can confirm this by double-clicking the `ACCOUNTING` Security Group and selecting the `Members` tab.
+- As shown below, Active Directory user `Austin.Taylor` is a member of our `ACCOUNTING` Security Group.
 
+  <img src="https://github.com/user-attachments/assets/ad8f75d4-e8b1-49ce-b2b3-5189a6d4c241" height="50%" width="50%" />
+
+
+
+---
+<br />
 
 
 
