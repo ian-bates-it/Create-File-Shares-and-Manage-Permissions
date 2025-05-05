@@ -292,4 +292,53 @@
 <h3>Add A User To the `ACCOUNTING` Security Group</h3>
 
 
+1. Click on the `_DEPARTMENTS` Organizational Unit.
+2. Double click the `ACCOUNTING` Security Group to view its properties.
+3. Select the `Members` tab of the `ACCOUNTING` Security Group.
+4. Click the `Add` button as shown below.
+
+
+  <img src="https://github.com/user-attachments/assets/235bd905-a7a2-4933-8f29-571596f5bb05" height="60%" width="60%" />
+
+
+<br />
+<br />
+
+- Using [one of the Active Directory Users we created with PowerShell in our `_EMPLOYEES` organizational unit at this link here](https://github.com/ian-bates-it/Create-Active-Directory-Users-With-PowerShell-Script?tab=readme-ov-file#create-100-active-directory-domain-users-with-powershell), we will add one of them to the `ACCOUNTING` Security Group.
+- In this example, I selected user `austin.taylor`.
+
+5. Type the name of the active directory user in the `Enter the object names to select` text field.
+6. Select `Check Names` to make sure you have properly identified the user.
+7. Then select the `OK` button to complete the process.
+
+  <img src="https://github.com/user-attachments/assets/3553a243-db64-4fca-abcf-64638f032e90" height="50%" width="50%" />
+
+<br />
+<br />
+
+8. Click `Apply`
+9. Click `OK` to complete this process as shown below.
+
+  <img src="https://github.com/user-attachments/assets/b98a13bc-3b41-4a77-8650-b8fba984ff36" height="50%" width="50%" />
+
+
+---
+
+---
+<br />
+
+<h3>Conclusion: Now only user `austin.taylor` has `Read/Write` access in the `ACCOUNTING` Security Group</h3>
+
+- This completes the process. Our user `austin.taylor` has `Read/Write` access to the `accountants` file share as a member of our Active Directory `ACCOUNTING` Security Group. 
+
+
+
+
+
+
+
+
+
+
+
 
