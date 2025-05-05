@@ -13,7 +13,7 @@
     - `read-access` which will only give our `Domain Users` **read** permissions.
     - `write-access` which will only give our `Domain Users` **read/write** permissions.
     - `no-access` which will only give ONLY our `Domain Admins` **read/write** permissions. (NOT our `Domain Users`).
-    - `accounting` which will only give users who are members of the `ACCOUNTING` security group **read/write** permissions.
+    - `accountants` which will only give users who are members of the `ACCOUNTING` security group **read/write** permissions.
 
 ---
 ---
@@ -61,19 +61,22 @@
 <br />
 <h3>Create Four New Directories on the C Drive</h3>
 
-- We are going to create four directories, `read-access`, `write-access`, `no-access` and `accounting`.
+- We are going to create four directories, `read-access`, `write-access`, `no-access` and `accountants`.
 
 1. Right-click the C Drive
 2. Select `New`
 3. Select `Folder` as shown below.
 
-  <img src="https://github.com/user-attachments/assets/b18fb972-7da5-4219-a655-cdb6cf6f28a0" height="60%" width="60%" />
+ <img src="https://github.com/user-attachments/assets/b18fb972-7da5-4219-a655-cdb6cf6f28a0" height="60%" width="60%" />
 
 
+<h4>Name the folder and continue until there are four new directories for `read-access`, `write-access`, `no-access` and `accountants` as shown below.</h4>
 
-<h4>Name the folder and continue until there are four new directories for `read-access`, `write-access`, `no-access` and `accounting` as shown below.</h4>
+   <img src="https://github.com/user-attachments/assets/955db602-59dc-4d52-b5df-89ffe086df80" height="60%" width="60%" />
 
+<!--
   <img src="https://github.com/user-attachments/assets/156f075f-b6ab-4032-b93c-de372038617e" height="60%" width="60%" />
+-->
 
 
 ---
@@ -243,16 +246,50 @@
 
   <img src="https://github.com/user-attachments/assets/6c1b10b8-68f3-4555-8c54-3156519a2096" height="40%" width="40%" />
 
+<br />
+
+- Now our `_DEPARTMENTS` OU has an `Accounting` global Security Group as shown below.
+
+  <img src="https://github.com/user-attachments/assets/d4a0b63f-de6f-4670-874f-fcda3028599f" height="40%" width="40%" />
 
 
 
 
 
+---
+<br />
+
+<h3>Create a File Share named `accountants` for Security Group `ACCOUNTING` with `READ/WRITE` permissions </h3>
+
+1. Right click the `accountants` folder.
+2. Select `Properties`.
+3. Under the `Sharing` tab, Select the `Share` button as shown below.
+
+  <img src="https://github.com/user-attachments/assets/c242cf7d-d5ce-4aae-834a-4d05af2a0ca6" height="70%" width="70%" />
+
+<br />
+<br />
+
+4. In the `Network access` tab type in the `ACCOUNTING` Security Group we previously added above
+5. Change the `Permission Level` to from `Read` to `Read/Write`.
+6. Click the `Share` button to confirm these changes as shown below. 
+
+  <img src="https://github.com/user-attachments/assets/b75c2066-6418-4ce4-b273-3e39a1a00d43" height="60%" width="60%" />
 
 
+<br />
+<br />
 
+7. Now our `accountants` folder is shared with `Read/Write` permissions to users in the `ACCOUNTING` security group as shown below in the confirmation window. Press the `Done` button to complete.
 
+  <img src="https://github.com/user-attachments/assets/300f99be-5504-4f50-82b4-68e268bbfa2c" height="50%" width="50%" />
 
+<br />
+
+---
+<br />
+
+<h3>Add A User To the `ACCOUNTING` Security Group</h3>
 
 
 
