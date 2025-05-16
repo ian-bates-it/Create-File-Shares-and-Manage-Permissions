@@ -1,12 +1,8 @@
-# Create File Shares and Manage Permissions
-
----
-
 <p align="center">
 <img src="https://github.com/user-attachments/assets/2f544d38-0a3f-492d-8528-369cc98ee75a" alt="Microsoft Active Directory Logo"/>
 </p>
 
----
+# Create File Shares and Manage Permissions
 
 **Overview**
 - On the Windows 2022 Server Domain Controller we will create four directories on the C Drive.
@@ -15,17 +11,38 @@
     - `no-access` which will only give ONLY our `Domain Admins` **read/write** permissions. (NOT our `Domain Users`).
     - `accountants` which will only give users who are members of the `ACCOUNTING` security group **read/write** permissions.
 
----
----
+
+<h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines/Compute)
+- Remote Desktop
+- Active Directory Users and Computers
+
+<h2>Operating Systems Used </h2>
+
+- Windows Server 2022 Datacenter Azure edition (Domain Controller)
+
+<!--
+- Windows 10 Pro (21H2) (Client)
+Add confirmation on client system later
+-->
+
+<h2>High-Level Configuration Steps</h2>
+
+- Part 1: [Create File Shares on our Windows 2022 Server Domain Controller](https://github.com/ian-bates-it/Create-File-Shares-and-Manage-Permissions?tab=readme-ov-file#create-file-shares-on-the-windows-2022-server-domain-controller)
+- Part 2: [Setup Share Acces For A New `ACCOUNTING` Security Group](https://github.com/ian-bates-it/Create-File-Shares-and-Manage-Permissions?tab=readme-ov-file#accounting-directory-share-access)
+- Part 3: [Add a Domain User to the `ACCOUNTING` Security Group](https://github.com/ian-bates-it/Create-File-Shares-and-Manage-Permissions?tab=readme-ov-file#add-a-user-to-the-accounting-security-group)
+
+
+<br />
 <br />
 
+---
+
+<h1>Part 1:</h1>
 
 <h2>Create File Shares On The Windows 2022 Server Domain Controller</h2>
 
-
-
----
-<br />
 <h3>Log into the Windows 2022 Server Domain Controller</h3>
 
 
@@ -186,10 +203,12 @@
 -->
 
 
----
----
+<br />
 <br />
 
+---
+
+<h1>Part 2:</h1>
 
 <h2>Accounting Directory Share Access</h2>
 
@@ -282,12 +301,16 @@
 
 7. Now our `accountants` folder is shared with `Read/Write` permissions to users in the `ACCOUNTING` security group as shown below in the confirmation window. Press the `Done` button to complete.
 
-  <img src="https://github.com/user-attachments/assets/300f99be-5504-4f50-82b4-68e268bbfa2c" height="50%" width="50%" />
+  <img src="https://github.com/user-attachments/assets/300f99be-5504-4f50-82b4-68e268bbfa2c" height="60%" width="60%" />
 
+
+
+<br />
 <br />
 
 ---
-<br />
+
+<h1>Part 2:</h1>
 
 <h3>Add A User To the `ACCOUNTING` Security Group</h3>
 
@@ -311,7 +334,7 @@
 6. Select `Check Names` to make sure you have properly identified the user.
 7. Then select the `OK` button to complete the process.
 
-  <img src="https://github.com/user-attachments/assets/3553a243-db64-4fca-abcf-64638f032e90" height="50%" width="50%" />
+  <img src="https://github.com/user-attachments/assets/3553a243-db64-4fca-abcf-64638f032e90" height="70%" width="70%" />
 
 <br />
 <br />
@@ -319,7 +342,7 @@
 8. Click `Apply`
 9. Click `OK` to complete this process as shown below.
 
-  <img src="https://github.com/user-attachments/assets/b98a13bc-3b41-4a77-8650-b8fba984ff36" height="50%" width="50%" />
+  <img src="https://github.com/user-attachments/assets/b98a13bc-3b41-4a77-8650-b8fba984ff36" height="70%" width="70%" />
 
 
 ---
@@ -334,7 +357,7 @@
 - You can confirm this by double-clicking the `ACCOUNTING` Security Group and selecting the `Members` tab.
 - As shown below, Active Directory user `Austin.Taylor` is a member of our `ACCOUNTING` Security Group.
 
-  <img src="https://github.com/user-attachments/assets/ad8f75d4-e8b1-49ce-b2b3-5189a6d4c241" height="50%" width="50%" />
+  <img src="https://github.com/user-attachments/assets/ad8f75d4-e8b1-49ce-b2b3-5189a6d4c241" height="80%" width="80%" />
 
 
 
