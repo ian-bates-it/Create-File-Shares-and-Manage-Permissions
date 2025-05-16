@@ -34,6 +34,29 @@ Add confirmation on client system later
 - Part 3: [Add a Domain User to the `ACCOUNTING` Security Group](https://github.com/ian-bates-it/Create-File-Shares-and-Manage-Permissions?tab=readme-ov-file#add-a-user-to-the-accounting-security-group)
 
 
+<h2>Prerequisites</h2>
+
+1. Complete [Chapter 1 of Active Directory Home Lab series, Creating a Windows 10 Pro and Windows 2022 Server Virtual Machines in Azure.](https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup)
+
+2. Complete [Chapter 2 of the Active Directory Home Lab series, Configuring the Windows 10 Pro (Client) to use the static private IP of our Windows 2022 Server Domain Controller as its DNS Server.](https://github.com/ian-bates-it/Azure-Controller-Client-Configuration)
+
+3. Complete [Chapter 3 of the Active Directory Home Lab series, Installing Active Directory on a Windows 2022 Server VM and promoting it to a Domain Controller.](https://github.com/ian-bates-it/Install-Active-Directory-on-Windows-2022-Server)
+
+<!--
+4. Complete [Chapter 4 of the Active Directory Home Lab series, Create Organizational Units and Users in Active Directory.](https://github.com/ian-bates-it/Active-Directory-Users-And-Computers)
+-->
+
+4. Complete [Chapter 5 of the Active Directory Home Lab series, Joining a Windows 10 Pro Client to a Windows 2022 Server Domain Controller.](https://github.com/ian-bates-it/Join-A-Client-To-A-Domain)
+
+5. Complete [Chapter 6 of the Active Directory Home Lab Series, Creating 100 Domain Users with a PowerShell Script.](https://github.com/ian-bates-it/Create-Active-Directory-Users-With-PowerShell-Script)
+
+
+<br />
+<br />
+
+---
+
+
 <br />
 <br />
 
